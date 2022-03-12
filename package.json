@@ -1,0 +1,41 @@
+{
+  "name": "dd-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config ./config/webpack.config.base.js",
+    "build": "webpack --config ./config/webpack.config.prod.js"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faq0192/dd-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faq0192/dd-web/issues"
+  },
+  "homepage": "https://github.com/faq0192/dd-web#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "autoprefixer": "^10.4.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.8",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
